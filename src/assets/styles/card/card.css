@@ -1,0 +1,23 @@
+.card-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+.card-container:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+.card-container:hover h4 {
+  background-color: #fed7aa;
+}
+.card-container h4 {
+  background-color: #ffedd5;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card-container p {
+  padding: 0 5px;
+}/*# sourceMappingURL=card.css.map */

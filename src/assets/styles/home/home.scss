@@ -1,0 +1,37 @@
+@import "../variables";
+.home-container{
+    min-height: calc(100vh - $navbar-height - 20px); 
+    display: grid;
+    place-items: center;
+    .loader{
+        background-color: white;
+        color: $orange-500;
+        font-size: xx-large;
+        font-weight: 900;
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px solid black;
+        box-shadow: 5px 5px 10px black;
+        animation: loaderAnimation 1s linear infinite;
+    }
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        padding: 10px 30px;
+    }
+  
+
+}
+
+@keyframes loaderAnimation {
+    0%{
+        translate: 0 0; 
+    }
+    50%{
+        translate: 0 10px;
+    }
+    100%{
+        translate: 0 0; 
+    }
+}

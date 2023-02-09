@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+
+body {
+  background-color: #7c2d12;
+  color: white;
+}
+
+button {
+  background-color: #f97316;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #ea580c;
+  cursor: pointer;
+  transition: 500ms;
+}/*# sourceMappingURL=global.css.map */

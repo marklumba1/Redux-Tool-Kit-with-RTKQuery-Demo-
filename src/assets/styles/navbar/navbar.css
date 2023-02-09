@@ -1,0 +1,25 @@
+.navbar-container {
+  padding: 10px;
+  background-color: #c2410c;
+  box-shadow: 2px 2px 10px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-container .navbar-links {
+  display: flex;
+  gap: 10px;
+}
+.navbar-container .navbar-links a {
+  font-size: 16px;
+  color: white;
+}
+.navbar-container .navbar-links a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}/*# sourceMappingURL=navbar.css.map */
